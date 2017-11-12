@@ -148,6 +148,8 @@ function ListOfTenThings() {
 </div>
 ```
 
+## Typechecking with PropTypes
+
 You can catch a lot of bugs with typechecking. For some applications, you can use JavaScript extensions like Flow
 or TypeScript to typecheck your whole application. If you don't use those, React has some built in typechecking abilities.
 To run typechecking on the props for a component, you can assign the special propTypes property:
@@ -234,3 +236,5 @@ class Greeting extends React.Component {
 ```
 
 The defaultProps will be used to ensure that this.props.name will have a value if it was not specified by the parent component. The propTypes typechecking happens after defaultProps are resolved, so typechecking will also apply to the defaultProps.
+
+## Static Type Checking
