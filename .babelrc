@@ -1,9 +1,4 @@
 {
   "presets": ["flow", "react-app"],
-  "plugins": ["transform-flow-strip-types", "flow-react-proptypes"],
-  "env": {
-    "development": {
-      "plugins": ["flow-react-proptypes"]
-    }
-  }
+  "plugins": ["transform-flow-strip-types"]
 }
